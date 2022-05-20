@@ -10,14 +10,14 @@ jobs:
         with:
           python-version: 3.8
       - name: Install dependencies
-        run: |
+        run:  |
           make install
       - name: Lint with Pytest
-        run: |
+        run:  |
           make lint
       - name: Test with Pytest
-        run: |
+        run:  |
           make test
       - name: Format code with Python black
-        run: |
+        run:  |
           make format
